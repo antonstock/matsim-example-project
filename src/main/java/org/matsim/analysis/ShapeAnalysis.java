@@ -12,11 +12,9 @@ import org.matsim.core.utils.gis.ShapeFileReader;
 
 public class ShapeAnalysis {
 
-    private static final String shapeFile = "C:\\Users\\Janekdererste\\Downloads\\Bezirke_-_Berlin-shp\\Berlin_Bezirke.shp";
-    private static final String populationPath = "C:\\Users\\Janekdererste\\Downloads\\matsim class\\matsim class\\5.5.x-1pct\\berlin-v5.5-1pct.output_plans.xml.gz";
-    private static final String networkPath = "C:\\Users\\Janekdererste\\Downloads\\matsim class\\matsim class\\5.5.x-1pct\\berlin-v5.5-1pct.output_network.xml.gz";
-    private static final CoordinateTransformation transformation = TransformationFactory.getCoordinateTransformation("EPSG:31468", "EPSG:3857");
-
+    private static final String shapeFile = "C:\\Users\\anton\\IdeaProjects\\shapefiles\\berlin\\Berlin_Bezirke.shp";
+    private static final String populationPath = "C:\\Users\\anton\\IdeaProjects\\matsim-example-project\\scenarios\\equil\\output\\berlin-v5.4-1pct.output_plans.xml";
+    private static final String networkPath = "C:\\Users\\anton\\IdeaProjects\\matsim-example-project\\scenarios\\equil\\output\\berlin-v5.4-1pct.output_network.xml";private static final CoordinateTransformation transformation = TransformationFactory.getCoordinateTransformation("EPSG:31468", "EPSG:3857");
     private static final String gemeinde_s = "001";
 
     public static void main(String[] args) {
