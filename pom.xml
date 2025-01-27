@@ -4,14 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.matsim</groupId>
 	<artifactId>matsim-example-project</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>2025.0-2024w41</version>
 
 	<name>MATSim example project</name>
 	<description>MATSim example project</description>
 
 	<properties>
 		<!-- release -->
-		<matsim.version>13.0</matsim.version>
+		<matsim.version>2025.0-2024w41</matsim.version>
 
 		<!-- smapshot -->
 		<!--<matsim.version>14.0-SNAPSHOT</matsim.version>-->
